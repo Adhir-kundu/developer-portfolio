@@ -58,7 +58,20 @@ h1{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 20px;
-    border-radius: 10px;
-    border-left: 10px solid violet;
+    padding-left: 20px;    
+}
+#gradient{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#firstbox{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, purple);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 2%;
 }
